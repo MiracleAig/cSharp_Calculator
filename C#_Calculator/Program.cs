@@ -54,10 +54,31 @@ namespace C__Calculator
 
             }
 
+            if (opperation == "S")
+            {
+                Subtraction();
+            }
+
 
 
             Console.ReadKey();
 
+
+        }
+
+        static void Subtraction()
+        {
+            Console.WriteLine("Working");
+            Console.ReadKey();
+        }
+
+        static void Multiply()
+        {
+
+        }
+
+        static void Divide()
+        {
 
         }
 
